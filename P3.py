@@ -9,7 +9,7 @@ def primeFactors(n):
             print(i)
             n = n / i
     if(n > 2):
-        print(n)
+        return n
 
 n = 600851475143
-primeFactors(n)
+print(primeFactors(n))
