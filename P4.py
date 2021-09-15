@@ -4,7 +4,7 @@ def largestPalindrome(n):
 	upper_limit = (10**n) - 1
 	lower_limit = 10**(n-1)
 
-	# Track
+	# Track max value
 	max_palindrome = 0
 
 	# Loop through from the max to the min, calculating the max possible palindrome
