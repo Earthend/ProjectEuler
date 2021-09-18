@@ -1,7 +1,8 @@
+#!/usr/bin/env python3
+
 # Puts all prime factors of a number into a dictionary (Could skip 
 # adding the 1's for this problem, but I'm putting it in  
 # just in case we need to import this function for later uses)
-
 def primeFactors(n):
 	# Edge case - returns 0 if it's 0
 	if (not n):
@@ -43,5 +44,8 @@ def smallestMultiple(n):
 	return smallest_multiple
 
 
+def main():
+	print(smallestMultiple(20))
 
-print(smallestMultiple(20))
+if __name__ == "__main__":
+    main()

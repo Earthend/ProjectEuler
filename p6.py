@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 # Protentially a more efficient way to do this?
 def sumSquareDiff(n):
 	sum_of_squares = 0
@@ -9,4 +11,9 @@ def sumSquareDiff(n):
 	square_of_sums = square_of_sums ** 2
 	return  square_of_sums - sum_of_squares
 
-print(sumSquareDiff(100))
+
+def main():
+	print(sumSquareDiff(100))
+
+if __name__ == "__main__":
+    main()

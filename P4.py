@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 # Assuming N is an integer
 def largestPalindrome(n):
 	# Set upper and lower limits depending on the number of digits N
@@ -26,5 +28,9 @@ def largestPalindrome(n):
 
 	return max_palindrome
 
-n = 3
-print(largestPalindrome(n))
+
+def main():
+	print(largestPalindrome(3))
+
+if __name__ == "__main__":
+    main()
