@@ -2,6 +2,7 @@
 
 import math
  
+# Finds the largest prime factors of a given number n 
 def primeFactors(n):
     factors = []
     remaining = n

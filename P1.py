@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 
+# Finds the sum of multiples of 3 or 5 that are below 1000
 def main():
 	current_num = 3
 	total = 0

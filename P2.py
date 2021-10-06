@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 
+# Finds the sum of even-valued terms in the fibonacci sequence below 4 million
 def main():
 	prev = 1
 	current = 2
