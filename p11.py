@@ -21,6 +21,7 @@ data = """08 02 22 97 38 15 00 40 00 75 04 05 07 78 52 12 50 77 91 08
 20 73 35 29 78 31 90 01 74 31 49 71 48 86 81 16 23 57 05 54
 01 70 54 71 83 51 54 69 16 92 33 48 61 43 52 01 89 19 67 48"""
 
+# Finds the greatest product of 4 diagonal, left, right, up, or down digits within a grid
 def greatest_product(width, height):
 	# Initial reading in of data to establish 2d array
 	grid = data.split('\n')
