@@ -2,7 +2,7 @@
 import math
 
 # Finds the longest Collatz sequence under 1 mil. 
-# Designed for just 
+# Designed for only values of 10's
 def longestCollatz(n):
 	# Start with the digit just before the highest possible, with that
 	# value being 8 because it is either 8 or 9 as the first digit with
