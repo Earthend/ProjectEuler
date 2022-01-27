@@ -20,4 +20,4 @@ def sumDiagonals(n):
 
 
 if __name__ == "__main__":
-    main(1001)
+    sumDiagonals(1001)
