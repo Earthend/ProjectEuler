@@ -29,4 +29,4 @@ def quadraticPrimes(n):
 
 
 if __name__ == "__main__":
-    main(1000)
+    quadraticPrimes(1000)
