@@ -11,7 +11,7 @@ def isPrime(n):
     return True
 
 
-def main(n):
+def quadraticPrimes(n):
     highest = 0
     highest_a = 0
     highest_b = 0
